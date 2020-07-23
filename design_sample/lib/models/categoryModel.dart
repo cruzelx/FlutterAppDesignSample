@@ -8,7 +8,7 @@ class Category {
   final double radius;
   final double percentage;
   final TextStyle textStyle;
-  final Icon icon;
+  final Widget icon;
 
   Category(
       {this.color,

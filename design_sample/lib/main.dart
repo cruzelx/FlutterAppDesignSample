@@ -1,5 +1,6 @@
 import 'package:design_sample/bloc/stateChangeNotifier.dart';
 import 'package:design_sample/screens/mainScreen/mainScreen.dart';
+import 'package:design_sample/theme/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -12,6 +13,7 @@ class DesignSampleApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: HomePage(),
+      theme: themeData,
       debugShowCheckedModeBanner: false,
     );
   }

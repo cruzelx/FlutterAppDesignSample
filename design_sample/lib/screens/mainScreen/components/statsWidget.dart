@@ -3,6 +3,7 @@ import 'package:design_sample/components.dart/chartLegend.dart';
 import 'package:design_sample/constants/categoryData.dart';
 import 'package:design_sample/constants/pieChartData.dart';
 import 'package:design_sample/models/categoryModel.dart';
+import 'package:design_sample/theme/styles.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -57,7 +58,13 @@ class _StatsWidgetState extends State<StatsWidget> {
                       child: Container(
                         child: Column(
                           mainAxisSize: MainAxisSize.min,
-                          children: <Widget>[Text("12"), Text("Expenses")],
+                          children: <Widget>[
+                            Text(
+                              "12",
+                              textScaleFactor: 2,
+                            ),
+                            Text("Expenses")
+                          ],
                         ),
                       ),
                     )
@@ -67,10 +74,10 @@ class _StatsWidgetState extends State<StatsWidget> {
             ),
             SizedBox(height: 20.0),
             SizedBox(
-                height: 200,
+                height: 140,
                 child: GridView.count(
                   shrinkWrap: true,
-                  mainAxisSpacing: 5,
+                  mainAxisSpacing: 0,
                   crossAxisSpacing: 0,
                   crossAxisCount: 1,
                   childAspectRatio: 10 / 1,
