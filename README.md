@@ -7,4 +7,4 @@
 
 <img src="screenshots/chart.jpg" width="500">
 
-[Youtube](https://youtu.be/GwGMUC-15RQ)
+Watch Demo:  [Demo](https://youtu.be/GwGMUC-15RQ)
