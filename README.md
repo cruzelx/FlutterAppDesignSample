@@ -9,4 +9,4 @@
 
 Watch Demo:  
 
-[![Preview Image](https://img.youtube.com/vi/GwGMUC-15RQ/0.jpg))](https://www.youtube.com/watch?v=GwGMUC-15RQ)
+[![Preview Image](https://img.youtube.com/vi/GwGMUC-15RQ/0.jpg)](https://www.youtube.com/watch?v=GwGMUC-15RQ)
