@@ -74,7 +74,7 @@ class _StatsWidgetState extends State<StatsWidget> {
             ),
             SizedBox(height: 20.0),
             SizedBox(
-                height: 140,
+                height: 160,
                 child: GridView.count(
                   shrinkWrap: true,
                   mainAxisSpacing: 0,

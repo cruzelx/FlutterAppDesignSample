@@ -17,6 +17,7 @@ class MainScreen extends StatelessWidget {
         child: Column(
           children: <Widget>[
             headerWidget,
+            SizedBox(height: 10.0),
             Container(
               child: Padding(
                   padding: EdgeInsets.all(10.0),
@@ -26,7 +27,8 @@ class MainScreen extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: <Widget>[
                           Text("CATEGORIES", style: titleStyle),
-                          Text("7 total", style: subtitleStyle)
+                          Text("7 total", style: subtitleStyle),
+                         
                         ],
                       ),
                       Spacer(),

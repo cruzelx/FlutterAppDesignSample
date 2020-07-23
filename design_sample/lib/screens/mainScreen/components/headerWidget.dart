@@ -16,15 +16,18 @@ final Widget headerWidget = Container(
                 Icon(Icons.more_horiz)
               ],
             ),
-            SizedBox(height: 20.0),
+            SizedBox(height: 25.0),
             Text("My Expenses", style: headingStyle),
             Text("Summary (Private)", style: subtitleStyle),
-            SizedBox(height: 20.0),
+            SizedBox(height: 25.0),
             Row(
               children: <Widget>[
                 CircleAvatar(
                   backgroundColor: Color(0xffe0e0e0),
-                  child: Icon(Icons.calendar_today),
+                  child: Icon(
+                    Icons.calendar_today,
+                    color: Colors.grey.shade700,
+                  ),
                 ),
                 SizedBox(width: 10.0),
                 Column(
@@ -36,6 +39,7 @@ final Widget headerWidget = Container(
                   ],
                 )
               ],
-            )
+            ),
+            SizedBox(height: 20.0),
           ],
         )));

@@ -23,7 +23,7 @@ class ChartLegend extends StatelessWidget {
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(8.0),
               color: stateNotifier.legendIndex == index
-                  ? Color(0xffccc931)
+                  ? Color(0xfff2b31f)
                   : null),
           child: Padding(
             padding: const EdgeInsets.all(8.0),
