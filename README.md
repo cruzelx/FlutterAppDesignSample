@@ -3,6 +3,6 @@
 * Interactive DonutChart
 * Animated Switchable Widget
 
-![List Image] (screenshots/list.jpg)
+<img src="screenshots/list.jpg">
 
-![Chart Image] (screenshots/chart.jpg)
+<img src="screenshots/chart.jpg">
